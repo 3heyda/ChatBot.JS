@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*header CSS*/
+header{
+    margin-bottom: 80px;
+}
+.rightID img{
+   width: 26px;
+   margin-right: 10px;
+   border-radius: 50px;
+   margin-top: 10px;
+   background-color: rgba(126, 224, 241, 0.863);
+}
+.rightID{
+    position: relative;
+    right: -80%;
+}
+.leftID , .rightID{
+   width: 100px;
+   display: inline-block;
+}
+.leftID span{
+    padding-left: 120px;
+}
+/*header CSS*/
+
+/*sectiom Main CSS*/
+section{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+.proimg img{
+    width: 350px;
+    margin-bottom: 10px;
+}
+.proimg {
+   text-align: center;
+   width: 400px;
+  display: inline-block;
+ 
+}
+.proimg button{
+    border: 2px solid rgb(67, 189, 211);
+    padding: 15px 20px 15px 20px;
+    background-color: rgb(255, 255, 255);
+   margin-bottom: 10px;
+   font-weight: 700;
+   border-radius: 100px  ;
+   color:rgb(59, 169, 189) ;
+   transition: 0.3s;
+   cursor: pointer;
+
+}
+.proimg button:hover{
+    color:rgb(255, 255, 255) ;
+    background-color:rgb(67, 189, 211);
+}
+.right-chat {
+    width: 800px;
+    border-radius: 50px;
+    border: 3px solid rgb(81, 194, 214);
+   
+}
+.chatsp span{
+    font-weight: 600;
+    margin-left: 10px;
+    background-color: rgb(81, 194, 214) ;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px 0;
+    color: rgb(255, 255, 255);
+}
+.chatsp img{
+  width: 50px;
+  float: left;
+}
+.chatsp{
+   margin: 40px;
+}
+.search-box input{
+    outline-color: rgb(107, 224, 240) ;
+    border: 2px solid rgb(107, 224, 240) ;
+    border-radius: 7px;
+    padding: 10px 550px 10px 20px;
+    margin: 20px;
+}
+.search-box input::placeholder{
+    font-size: 16px;
+    color:rgb(133, 173, 180) ;
+}
+.search-box{
+  margin-top: 290px;
+}
+.options{
+    margin-left: 25px;
+}
+.options span{
+    font-weight: 500;
+    color: rgb(138, 134, 134);
+    margin-right: 15px;
+    cursor: pointer;
+}
+/*sectiom Main CSS*/
