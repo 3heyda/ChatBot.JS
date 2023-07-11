@@ -73,30 +73,42 @@
 
 
 
-let userInput = document.querySelector("#chatbotUserInput");
+let userInput = document.querySelector("#userQuestionInput");
 
-userInput.addEventListener("change", function(){ 
+userInput.addEventListener("change", function () {
     bot(userInput.value)
 });
 
+const userAnswer = document.querySelector("#userOutputAnswer");
+
+
+
 function bot(resPonse) {
 
-    if (resPonse.includes("سلام", "سلام چطوری؟", "Chetori", "salam", "Salam", "Hello!", "Hi")) {
-        console.log("سلام و درود بر تو");
-    } else if (resPonse.includes("خوبی؟","","how are you")) {
-        console.log("مگه دکتری؟");
+    if (resPonse.includes("سلام" , "" , "Chetori" , "salam", "Salam", "Hello!", "Hi")) {
+        userAnswer.innerHTML = "سلام و درود بر تو";
+
+    } else if (resPonse.includes("خوبی؟")) {
+        userAnswer.innerHTML = "تست";
+
     } else if (question == "چه خبر؟") {
-        console.log("سلامتی");
+        userAnswer.innerHTML = "3 تست";
+
     } else if (question == "اسمت چیه؟") {
-        console.log("تربچه");
+        userAnswer.innerHTML = "تست";
+
     } else if (question == "خونت کجاس؟") {
         console.log("تو باغچه");
+
     } else if (question == "چی میخوری؟") {
         console.log("آلوچه");
+
     } else if (question == "کلاس چندمی؟") {
         console.log("دانشگاه میرم");
+
     } else if (question == "هوا چطوره؟") {
         console.log("نمی دونم");
+
     } else {
         console.log("یکی بود یکی نبود در روزگار امروزی پادشاه وب جاوااسکریپت خود را کتک میزد و از رابی میترسید روزی پادشاه پایتون اعلام جنگ نمود و گفت بابا ولم کن");
     }
