@@ -89,28 +89,28 @@ function bot(resPonse) {
         userAnswer.innerHTML = "سلام و درود بر تو";
 
     } else if (resPonse.includes("خوبی؟")) {
-        userAnswer.innerHTML = "تست";
+        userAnswer.innerHTML = "عشقومی ککا حال خوت چطورن؟";
 
     } else if (question == "چه خبر؟") {
-        userAnswer.innerHTML = "3 تست";
+        userAnswer.innerHTML = "سلامتی جون دل";
 
     } else if (question == "اسمت چیه؟") {
-        userAnswer.innerHTML = "تست";
+        userAnswer.innerHTML = "شیمو";
 
     } else if (question == "خونت کجاس؟") {
-        console.log("تو باغچه");
+        userAnswer.innerHTML = "باغ زهرا خیابون آزادگان";
 
     } else if (question == "چی میخوری؟") {
-        console.log("آلوچه");
+        userAnswer.innerHTML = "هزار بار گفتم بازم میگم، هرچی تو بخوری:)";
 
     } else if (question == "کلاس چندمی؟") {
-        console.log("دانشگاه میرم");
+        userAnswer.innerHTML = "همسن پدرتم با اجازت";
 
     } else if (question == "هوا چطوره؟") {
-        console.log("نمی دونم");
+        userAnswer.innerHTML = "شیدا خواهر خدا زیادت کنه اینا چه سوالایی از من میپرسی";
 
     } else {
-        console.log("یکی بود یکی نبود در روزگار امروزی پادشاه وب جاوااسکریپت خود را کتک میزد و از رابی میترسید روزی پادشاه پایتون اعلام جنگ نمود و گفت بابا ولم کن");
+        userAnswer.innerHTML = "یکی بود یکی نبود در روزگار امروزی پادشاه وب جاوااسکریپت خود را کتک میزد و از رابی میترسید روزی پادشاه پایتون اعلام جنگ نمود و گفت بابا ولم کن";
     }
 
 }
