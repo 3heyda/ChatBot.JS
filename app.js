@@ -50,3 +50,4 @@ function bot(question) {
     if (information_p.includes(question)) {
         userAnswer.innerHTML = "My name is Sheyda.", "اسم من شیداست";
     }
+    }
