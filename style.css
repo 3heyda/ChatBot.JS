@@ -24,6 +24,10 @@ header {
 }
 .leftID span {
   padding-left: 120px;
+  cursor: pointer;
+}
+.leftID span:hover{
+  text-decoration: underline;
 }
 /*header CSS*/
 
