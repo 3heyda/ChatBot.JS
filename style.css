@@ -58,7 +58,7 @@ section {
   font-weight: 700;
   border-radius: 100px;
   color: rgb(59, 169, 189);
-  transition: 0.3s;
+  transition: 0.1s;
   cursor: pointer;
 }
 .proimg button:hover {
