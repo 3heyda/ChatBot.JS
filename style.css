@@ -2,9 +2,13 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+body{
+  background-color: rgb(255, 255, 255);
+}
 /*header CSS*/
 header {
-  margin-bottom: 80px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 .rightID img {
   width: 26px;
